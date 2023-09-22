@@ -16,7 +16,7 @@ function App() {
   return (
     <NoteState>
       <Router>
-        <Alert message={"Latest Course"}/>
+        <Alert message={"Latest Paid Course"}/>
         <Navbar/>
           <Routes>
             <Route path="/" element={<Home/>}/>
